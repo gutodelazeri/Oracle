@@ -65,7 +65,7 @@ defined in ./src/models/regression_model.py. To load a model, it is
 necessary to specify the path of the module inside which the model is implemented
 and the name of class that implements the interface.
 
-- **model_file**: path (relative to the package src) to the module implementing the model (e.g., "models.base.RFranger")
+- **model_path**: path (relative to the package src) to the module implementing the model (e.g., "models.base.RFranger")
 - **model_name**: name of the class inside "model_file" that implements the required interface (e.g., "RFranger").
 
 #### model_parameters

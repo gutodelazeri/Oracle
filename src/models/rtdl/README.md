@@ -20,7 +20,7 @@ conda deactivate
 conda activate oracle
 ```
 
-You also have to unpack the directory with the model weights:
+You also have to download and unpack the directory with the model weights:
 ```bash
 wget https://www.inf.ufrgs.br/~gudelazeri/output.tgz
 tar zxvf output.tgz
