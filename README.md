@@ -137,5 +137,23 @@ python3 scripts/stub.py -instance 121 -algorithm eas -localsearch 2 -alpha 3.24 
 ```
 
 ## 4. How to cite
-TBD.
 
+```bibtex
+@InProceedings{Delazeri.etal/2022,
+  author = 	 {Gustavo Delazeri, Marcus Ritt and Marcelo de Souza},
+  title = 	 {Comparing surrogate models for tuning optimization algorithms},
+  booktitle ={Proceedings of the 16th International Conference on Learning and Intelligent Optimization},
+  year = 	 {2022},
+  OPTeditor = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  OPTpages = 	 {},
+  month = 	 may,
+  address = 	 {Adamantas, Milos},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTnote = {will be completed upon final publication},
+  keywords = 	 {forthcoming}
+}
+```
