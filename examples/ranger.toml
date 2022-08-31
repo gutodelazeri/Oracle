@@ -1,0 +1,27 @@
+[general]
+scenario_file = "scenarios/acotsp.toml"
+port = "5555"
+
+[model]
+model_name = "RFranger"
+model_path = "models.base.RFranger"
+
+[model_parameters]
+verbose = false
+respect_categorical_features = "partition"
+seed = 1
+
+[preprocessing]
+imputation = "random"
+encoding = "binary"
+
+
+[data]
+dataset_path = "data/acotsp.csv"
+separator = " "
+labels_column = "val"
+
+
+
+
+

@@ -1,0 +1,25 @@
+[general]
+scenario_file = "scenarios/acotsp.toml"
+port = "5555"
+
+[model]
+model_name = "GBxgboost"
+model_path = "models.base.GBxgboost"
+
+[model_parameters]
+seed=1
+
+[preprocessing]
+imputation = "random"
+encoding = "integer"
+
+
+[data]
+dataset_path = "data/acotsp.csv"
+separator = " "
+labels_column = "val"
+
+
+
+
+

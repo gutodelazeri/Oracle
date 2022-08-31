@@ -1,0 +1,10 @@
+{"name": "acotsp___0",
+"basename": "acotsp",
+"split": 0,
+"task_type": "regression",
+"n_num_features": 8,
+"n_cat_features": 4,
+"train_size": 30000,
+"val_size": 10000,
+"test_size": 10000
+}

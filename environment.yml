@@ -1,0 +1,14 @@
+name: oracle
+dependencies:
+  - python=3.8.8
+  - numpy=1.19.2
+  - pip
+  - pip:
+    - pyrfr==0.8.2
+    - skranger==0.8.0
+    - catboost==1.0.5
+    - xgboost==1.6.1
+    - scikit-learn==1.1.0
+    - toml==0.10.2
+    - pyzmq==22.3.0
+    - pandas==1.4.2

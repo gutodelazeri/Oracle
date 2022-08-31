@@ -1,0 +1,25 @@
+[general]
+scenario_file = "scenarios/acotsp.toml"
+port = "5555"
+
+[model]
+model_name = "DLresnet"
+model_path = "models.rtdl.resnet"
+
+[model_parameters]
+scenario="acotsp"
+weights="src/models/rtdl/output/acotsp-30K/resnet/tuned/13.toml"
+
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/acotsp.csv"
+separator = " "
+labels_column = "val"
+
+
+
+
+

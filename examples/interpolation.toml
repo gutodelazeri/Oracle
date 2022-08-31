@@ -1,0 +1,24 @@
+[general]
+scenario_file = "scenarios/lkh.toml"
+port = "5555"
+
+[model]
+model_name = "WeightedInterpolation"
+model_path = "models.base.WeightedInterpolation"
+
+[model_parameters]
+p = 2
+k = 4
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/lkh.csv"
+separator = " "
+labels_column = "result"
+
+
+
+
+

@@ -1,0 +1,23 @@
+[general]
+scenario_file = "scenarios/acotsp.toml"
+port = "5555"
+
+[model]
+model_name = "GBcatboost"
+model_path = "models.base.GBcatboost"
+
+[model_parameters]
+verbose = false
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/acotsp.csv"
+separator = " "
+labels_column = "val"
+
+
+
+
+

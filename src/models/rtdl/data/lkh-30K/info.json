@@ -1,0 +1,10 @@
+{"name": "lkh___0",
+"basename": "lkh",
+"split": 0,
+"task_type": "regression",
+"n_num_features": 12,
+"n_cat_features": 10,
+"train_size": 30000,
+"val_size": 10000,
+"test_size": 10000
+}

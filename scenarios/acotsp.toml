@@ -1,0 +1,12 @@
+algorithm =   {switch = "-algorithm ",   type = "c",  values = ["as","mmas","eas","ras","acs"],                                         default = "as"}
+localsearch = {switch = "-localsearch ", type = "c",  values = ["0", "1", "2", "3"],                                                    default = "3"}
+alpha =       {switch = "-alpha ",       type = "r",  values = [0.00, 5.00],                                                            default = 2.0}
+beta =        {switch = "-beta ",        type = "r",  values = [0.00, 10.00],                                                           default = 1.2}
+rho =         {switch = "-rho ",         type = "r",  values = [0.01, 1.00],                                                            default = 0.42}
+ants =        {switch = "-ants ",        type = "i",  values = [2, 100],                                                                default = 30}
+q0 =          {switch = "-q0 ",          type = "r",  values = [0.0, 1.0],                                                              default = 0.323}
+rasrank =     {switch = "-rasrank ",     type = "i",  values = [1, 100],                                                                default = 87}
+elitistants = {switch = "-elitistants ", type = "i",  values = [1, 750],                                                                default = 234}
+nnls =        {switch = "-nnls ",        type = "i",  values = [5, 50],                                                                 default = 10}
+dlb =         {switch = "-dlb ",         type = "c",  values = ["0", "1"],                                                              default = "0"}
+instance =    {switch = "-instance ",     type = "c",  values = ["121", "122", "123", "124", "125", "126", "127", "128", "129", "130"],  default = "121"}

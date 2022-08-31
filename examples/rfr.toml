@@ -1,0 +1,33 @@
+[general]
+scenario_file = "scenarios/lkh.toml"
+port = "5555"
+
+[model]
+model_name = "RFrfr"
+model_path = "models.base.RFrfr"
+
+[model_parameters]
+frac_points_per_tree = 0.635453
+ratio_features = 0.284881375208
+num_trees = 48
+do_bootstrapping = false
+min_samples_to_split = 5
+min_samples_in_leaf = 1
+max_depth = 26
+max_num_nodes = 16678
+epsilon_purity = 1e-8
+
+[preprocessing]
+imputation = "fixed default"
+encoding = "one-hot"
+
+
+[data]
+dataset_path = "data/lkh.csv"
+separator = " "
+labels_column = "result"
+
+
+
+
+

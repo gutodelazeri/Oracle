@@ -1,0 +1,25 @@
+[general]
+scenario_file = "scenarios/lkh.toml"
+port = "5555"
+
+[model]
+model_name = "DLfttransformer"
+model_path = "models.rtdl.ft_transformer"
+
+[model_parameters]
+scenario="lkh"
+weights="src/models/rtdl/output/lkh-30K/ft_transformer/tuned/11.toml"
+
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/lkh.csv"
+separator = " "
+labels_column = "result"
+
+
+
+
+

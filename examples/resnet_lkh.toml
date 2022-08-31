@@ -1,0 +1,25 @@
+[general]
+scenario_file = "scenarios/lkh.toml"
+port = "5555"
+
+[model]
+model_name = "DLresnet"
+model_path = "models.rtdl.resnet"
+
+[model_parameters]
+scenario="lkh"
+weights="src/models/rtdl/output/lkh-30K/resnet/tuned/8.toml"
+
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/lkh.csv"
+separator = " "
+labels_column = "result"
+
+
+
+
+

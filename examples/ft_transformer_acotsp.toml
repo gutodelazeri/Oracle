@@ -1,0 +1,25 @@
+[general]
+scenario_file = "scenarios/acotsp.toml"
+port = "5555"
+
+[model]
+model_name = "DLfttransformer"
+model_path = "models.rtdl.ft_transformer"
+
+[model_parameters]
+scenario="acotsp"
+weights="src/models/rtdl/output/acotsp-30K/ft_transformer/tuned/0.toml"
+
+
+[preprocessing]
+
+
+[data]
+dataset_path = "data/acotsp.csv"
+separator = " "
+labels_column = "val"
+
+
+
+
+
